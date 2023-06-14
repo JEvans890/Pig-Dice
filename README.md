@@ -36,6 +36,22 @@ Test: It should output a number between 1 and 6 randomly
 Code: diceRoll()
 Output: n >= 1, n <= 6
 
+Describe: isWinning(score)
+
+Test: If value is above winning threshold
+Code: isWinner(19)
+Output: false
+
+Test: If value is above winning threshold
+Code: isWinner(20)
+Output: true
+
+Describe: handleRoll(rollValue)
+
+Test:
+Code:
+Output:
+
 ## License
 
 _{Let people know what to do if they run into any issues or have questions, ideas or concerns. Encourage them to contact you or make a contribution to the code.}_
