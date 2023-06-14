@@ -46,10 +46,10 @@ Test: If value is above winning threshold
 Code: isWinner(20)
 Output: true
 
-Describe: handleRoll(rollValue)
+Describe: GameState.endTurn()
 
-Test:
-Code:
+Test: GameState.isPlayer1Turn goes from true to false or false to true
+Code: GameState.endTurn()
 Output:
 
 ## License

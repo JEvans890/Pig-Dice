@@ -1,3 +1,4 @@
+//Business Logic
 function diceRoll() {
     const diceSides = 6;
     const randomNum = Math.random(); //[0,1)
@@ -13,3 +14,5 @@ function isWinning(score) {
 }
 
 
+
+//UI Logic

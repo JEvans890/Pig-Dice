@@ -1,3 +1,16 @@
 body {
     background: linear-gradient(to right, pink, red);
+    text-align: center;
+}
+
+#scores {
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+.player {
+    font-size: 1.2em;
 }
